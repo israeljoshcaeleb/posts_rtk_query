@@ -9,7 +9,7 @@ import ReactionButtons from './ReactionButtons'
 const SinglePost = () => {
     const { postId } = useParams()
     
-    const post = useSelector((state)  => selectPostById(state, Number(postId)))
+    const post = useSelector((state)  => selectPostById(state, postId))
 
     if (!post){
         return (

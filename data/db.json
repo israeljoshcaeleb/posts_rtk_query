@@ -854,6 +854,62 @@
       "body": "check one two three",
       "userId": 2,
       "date": "2022-04-26T23:03:52.299Z"
+    },
+    {
+      "id": "2a37",
+      "title": "New Post",
+      "body": "My new post",
+      "userId": 9,
+      "date": "2024-02-26T02:52:33.693Z",
+      "reactions": {
+        "thumbsUp": 1,
+        "wow": 0,
+        "heart": 0,
+        "rocket": 0,
+        "coffee": 0
+      }
+    },
+    {
+      "id": "aa98",
+      "title": "Second post",
+      "body": "My second post",
+      "userId": 4,
+      "date": "2024-02-26T02:55:23.794Z",
+      "reactions": {
+        "thumbsUp": 0,
+        "wow": 0,
+        "heart": 0,
+        "rocket": 0,
+        "coffee": 0
+      }
+    },
+    {
+      "id": "f032",
+      "title": "Third post",
+      "body": "My third Post",
+      "userId": 7,
+      "date": "2024-02-26T02:58:29.897Z",
+      "reactions": {
+        "thumbsUp": 0,
+        "wow": 0,
+        "heart": 0,
+        "rocket": 0,
+        "coffee": 0
+      }
+    },
+    {
+      "id": "5f0d",
+      "title": "my fourth post",
+      "body": "My Fourth Post",
+      "userId": 9,
+      "date": "2024-02-26T03:25:52.851Z",
+      "reactions": {
+        "thumbsUp": 1,
+        "wow": 0,
+        "heart": 1,
+        "rocket": 0,
+        "coffee": 1
+      }
     }
   ]
 }

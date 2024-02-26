@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { Link, useParams } from 'react-router-dom'
 import { selectUserById } from './usersSlice'
-import { useGetPostByUserIdQuery } from '../posts/postsSlice'
+import { useGetPostsByUserIdQuery } from '../posts/postsSlice'
 
 const UserPage = () => {
     const { userId } = useParams()
@@ -13,7 +13,8 @@ const UserPage = () => {
       isSuccess,
       isError,
       error
-    } = useGetPostByUserIdQuery(userId)
+    } = useGetPostsByUserIdQuery(userId)
+    
     let content
     if(isLoading) {
       content = <p>Loading...</p>

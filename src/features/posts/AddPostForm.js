@@ -12,13 +12,12 @@ const AddPostForm = () => {
     const [title, setTitle] = useState('')
     const [content, setContent] = useState('')
     const [userId, setUserId] = useState('')
-    const [requestStatus, setRequestStatus] = useState('idle')
 
     const onTitleChanged = e => setTitle(e.target.value)
     const onContentChanged = e =>  setContent(e.target.value)
     const onAuthorChanged = e =>  setUserId(e.target.value)
 
-    const canSave = [title, content, userId].every(Boolean) && requestStatus === 'idle'
+    const canSave = [title, content, userId].every(Boolean) && !isLoading
 
     const onSavePost = () =>{
         if (canSave){
